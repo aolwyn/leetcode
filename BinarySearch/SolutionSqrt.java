@@ -1,4 +1,4 @@
-package BInarySearch;
+package BinarySearch;
 
 class Solution {
     public int mySqrt(int x) {
