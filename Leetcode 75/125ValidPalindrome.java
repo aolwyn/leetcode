@@ -11,7 +11,7 @@ class Solution {
         while(left < right){
             //3 cases:
             //case 1 & 2: either character is not a letter or digit, skip the character at that position and 
-            //increment the position accordingly. 
+            //increment/decrement the position accordingly. 
             if(!Character.isLetterOrDigit(s.charAt(left))) left++;
             else if(!Character.isLetterOrDigit(s.charAt(right))) right--;
             
