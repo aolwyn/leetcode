@@ -1,6 +1,8 @@
 # Introduction
-This folder will house some notes and basics for remembering, ie, looping, searching, built in things, etc. to remember.
+    This folder will house some notes and basics for remembering, ie, looping, searching, built in things, etc. to remember.
 
+# String VS StringBuilder
+    A String can be used when immutability is required, or concatenation operation is not required. A StringBuilder can be used when a mutable string is needed without the performance overhead of constructing lots of strings along the way.
 
 # Linked List
 
