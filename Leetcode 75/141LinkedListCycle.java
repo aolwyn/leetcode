@@ -1,15 +1,15 @@
-/**
- * Definition for singly-linked list.
- * class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
- */
-public class Solution {
+
+ 
+  class ListNode {
+    int val;
+     ListNode next;
+    ListNode(int x) {
+        val = x;
+         next = null;
+     }
+ }
+
+ class Solution {
     public boolean hasCycle(ListNode head) {
         //base case: 1 object, no cycle.
         if(head == null) return false;
